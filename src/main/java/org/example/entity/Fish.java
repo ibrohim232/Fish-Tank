@@ -34,6 +34,7 @@ public class Fish extends Thread {
             if (pair != null) {
                 if (fishTank.getCapacity() <= fishTank.getFishList().size()-1) {
                     System.out.println("Fish Tank is full");
+
                     System.exit(0);
                     break;
                 }
